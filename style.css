@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f5f6fa;
+}
+
+
+#navbar {
+    background-color: #2f3640;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#navbar a:hover {
+    color: #00a8ff;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+
+#converter-box {
+    background: white;
+    padding: 30px;
+    width: 360px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.tagline {
+    font-size: 14px;
+    color: gray;
+}
+
+
+input, select {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+.unit-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.unit-row div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+#convertButton {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00a8ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#convertButton:hover {
+    background-color: #0097e6;
+}
+
+ 
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}

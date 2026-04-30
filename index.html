@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <h2>Unit Converter</h2>
+        <div>
+            <a href="#">About</a>
+            <a href="#">Help</a>
+        </div>
+    </nav>
+
+    <div id="hero">
+        <div id="converter-box">
+
+            <h1>Unit Converter</h1>
+            <p class="tagline">Simple. Fast. Accurate.</p>
+
+            
+            <input type="number" id="inputValue" placeholder="Enter value (e.g. 10)">
+
+            
+            <label>Category</label>
+            <select id="category" class="select">
+                <option value="length">Length</option>
+                <option value="weight">Weight</option>
+                <option value="temperature">Temperature</option>
+            </select>
+
+            
+            <div class="unit-row">
+                <div>
+                    <label>From</label>
+                    <select id="startunits" class="select">
+                        <option value="m">Meter</option>
+                        <option value="km">Kilometer</option>
+                        <option value="cm">Centimeter</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>To</label>
+                    <select id="targetunits" class="select">
+                        <option value="km">Kilometer</option>
+                        <option value="m">Meter</option>
+                        <option value="cm">Centimeter</option>
+                    </select>
+                </div>
+            </div>
+
+            
+            <button id="convertButton">Convert</button>
+
+            
+            <p id="result">Result: --</p>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
