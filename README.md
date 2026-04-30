@@ -21,7 +21,7 @@ CSS
 JavaScript
 Live Demo
 
-https://yourusername.github.io/unit-converter/
+https://vedantpatil2209.github.io/unit-converter/
 
 Why I made this
 
